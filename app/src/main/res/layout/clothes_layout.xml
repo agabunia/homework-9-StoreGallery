@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="15dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="150dp"
+        android:layout_height="210dp"
+        android:background="@drawable/clothes_card_shape"
+        android:paddingStart="15dp">
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heart_icon"
+            android:paddingTop="150dp"
+            android:layout_marginEnd="4dp"/>
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/ivClothesImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clothes_1"
+            android:paddingTop="16dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvClothesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belt suit blazer"
+        android:textColor="@color/font_color"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:layout_marginTop="12dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvClothesPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="$120"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

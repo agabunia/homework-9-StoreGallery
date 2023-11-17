@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:id="@+id/layoutBtn"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/button_shape"
+    android:layout_width="wrap_content"
+    android:layout_height="52dp"
+    android:layout_marginEnd="10dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivImage"
+        android:layout_width="14dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/party_icon" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party"
+        android:textColor="@color/font_color"
+        android:textSize="14sp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="10dp"/>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
